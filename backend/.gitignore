@@ -1,0 +1,13 @@
+/vendor/
+.env
+.phpunit.result.cache
+/storage/*.key
+/storage/logs/*.log
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/testing/*
+/public/storage
+/bootstrap/cache/*.php
+!.gitkeep
+!.phpunit.xml

@@ -1,0 +1,21 @@
+# Backend
+backend/vendor/
+backend/.env
+backend/.phpunit.result.cache
+backend/storage/logs/*.log
+backend/storage/framework/cache/data/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/storage/framework/testing/*
+backend/public/storage
+backend/bootstrap/cache/*.php
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Keep .gitkeep files
+!**/.gitkeep
+
+.DS_Store
